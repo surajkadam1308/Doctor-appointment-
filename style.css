@@ -1,0 +1,113 @@
+body {
+background-image: url(img/img2.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: bottom;
+
+
+
+}
+
+.heading{
+  text-align: center;
+  color: white;
+  font-size:x-large;
+}
+.maindiv{
+    
+    color: white;
+    width: 55%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.537);
+    
+    border: 1px solid black;
+    
+   
+}
+.control-form{
+  margin: auto;
+}
+.box{
+  width:30%;
+  background-color: burlywood;
+  height: 400px;
+}
+.astik{
+  color: red;
+}
+.lebring {
+  width: 200px;
+  padding-bottom:20px;
+}
+.div1{
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+ }
+ .colon{
+  width: 20px;
+  padding-bottom:20px;
+}
+/* .thirddiv{
+  width:400px;
+  padding-bottom:5px;
+} */
+.input{
+  width:400px;
+  padding-bottom:17px;
+  margin: auto;
+}
+.hr{
+  border: 1px,solid,white;
+}
+.colon1{
+  width: 25px;
+  padding-bottom:30px;
+}
+.lebring1{
+  width:200px;
+  padding-bottom:33px;
+}
+.button{
+ 
+  background-color:rgba(55, 255, 0, 0.998);
+  text-align: center;
+  width: 80px;
+  color:white;
+  padding-bottom:15px;
+}
+.text-end{
+  padding-right:10px;
+  padding-bottom:15px;
+}
+
+div.spinner {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 36px;
+  height:36px;
+ 
+  background: url('img/spinner.png') no-repeat center center;
+  background-size: contain;
+  animation: spin 2s linear infinite;
+  
+  
+}
+
+@keyframes spin {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+  
+}
+
+.Hind{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  /* display:none; */
+}
