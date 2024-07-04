@@ -82,7 +82,7 @@ background-position: bottom;
 }
 
 div.spinner {
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
   width: 36px;
@@ -105,9 +105,3 @@ div.spinner {
   
 }
 
-.Hind{
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  /* display:none; */
-}
