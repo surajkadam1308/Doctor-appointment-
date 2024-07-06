@@ -17,3 +17,7 @@ function w3_open() {
     document.getElementById("mySidebar").style.display = "none";
     document.getElementById("spinner").style.right = "200px";
   }
+
+
+
+ 

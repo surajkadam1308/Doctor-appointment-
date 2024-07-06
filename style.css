@@ -87,6 +87,7 @@ div.spinner {
   right: 0;
   width: 36px;
   height:36px;
+  z-index: 1;
  
   background: url('img/spinner.png') no-repeat center center;
   background-size: contain;
@@ -98,9 +99,11 @@ div.spinner {
 @keyframes spin {
   from {
       transform: rotate(0deg);
+      
   }
   to {
       transform: rotate(360deg);
+     
   }
   
 }
