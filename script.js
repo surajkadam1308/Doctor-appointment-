@@ -22,7 +22,7 @@
       $("#mySidebar").toggle("slow")
       // $("#spinner").css("display","block");
        $("#spinner").css("right","200px");
-      
+    
 
     });
    
